@@ -13,7 +13,7 @@ jobs:
       - name: Check out the code
         uses: actions/checkout@v3
 
-      - name: Set up Python 3.14.0-alpha.0
+      - name: Set up Python 3.14
         uses: actions/setup-python@v4
         with:
           python-version: 3.14.0-alpha.0
