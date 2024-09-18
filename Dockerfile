@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.14-slim
 
 # Install dependencies
 RUN pip install --no-cache-dir alembic asyncpg
