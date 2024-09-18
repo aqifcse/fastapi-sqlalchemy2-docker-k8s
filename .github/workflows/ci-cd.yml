@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python 3.14.0-alpha.0
         uses: actions/setup-python@v4
         with:
-          python-version: 3.14.0-alpha.0
+          python-version: "3.14.0-alpha.0"
           check-latest: false
           allow-prereleases: true  # Allow pre-release versions if you need the latest alpha version
 
