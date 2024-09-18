@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: 3.14.0-alpha.0
           check-latest: false
-          allow-prereleases: true  # Enable pre-release versions if needed
+          allow-prereleases: true  # Allow pre-release versions if you need the latest alpha version
 
       - name: Install dependencies
         run: |
